@@ -12,6 +12,7 @@ import { InventarioModule } from './inventario/inventario.module';
 
 @NgModule({
   declarations: [
+    PerfilComponent,
     ClienteComponent,
     LayoutComponent,
   ],

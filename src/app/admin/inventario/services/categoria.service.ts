@@ -17,5 +17,5 @@ export class CategoriaService {
   funGuardar (registro: any){
     return this.http.post(`${this.baseUrl}/categoria`,registro)
   }
-  //constructor() { }
+  
 }
